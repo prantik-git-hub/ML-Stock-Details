@@ -5,33 +5,41 @@ Setup Instructions
 
 Project Structure
 ```
-finance/app_config.py 
-finance/requirements.txt 
-finance/run.py 
-finance/app/analyze.py 
-finance/app/forms.py 
-finance/app/models.py 
-finance/app/routes.py 
-finance/app/utils.py 
-finance/app/views.py 
-finance/app/ init .py 
-finance/app/templates/analysis.html 
-finance/app/templates/index.html
-finance/app/templates/results.html 
-finance/app/  pycache  /analyze.cpython-313.pyc 
-finance/app/  pycache  /fetch_data.cpython-313.pyc 
-finance/app/  pycache  /forms.cpython-313.pyc 
-finance/app/  pycache  /models.cpython-313.pyc 
-finance/app/  pycache  /routes.cpython-313.pyc 
-finance/app/  pycache  /utils.cpython-313.pyc 
-finance/app/  pycache  /views.cpython-313.pyc 
-finance/app/  pycache  / init  .cpython-313.pyc 
-finance/scripts/db_utils.py 
-finance/scripts/fetch_data.py 
-finance/scripts/ml_analysis.py 
-finance/uploads/test.json 
-finance/  pycache  /app_config.cpython-313.pyc 
-finance/  pycache  /config.cpython-313.pyc 
+finance/
+├── app_config.py
+├── requirements.txt
+├── run.py
+├── uploads/
+│   └── test.json
+├── scripts/
+│   ├── db_utils.py
+│   ├── fetch_data.py
+│   └── ml_analysis.py
+├── app/
+│   ├── __init__.py
+│   ├── analyze.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── utils.py
+│   ├── views.py
+│   ├── templates/
+│   │   ├── analysis.html
+│   │   ├── index.html
+│   │   └── results.html
+│   └── __pycache__/
+│       ├── analyze.cpython-313.pyc
+│       ├── fetch_data.cpython-313.pyc
+│       ├── forms.cpython-313.pyc
+│       ├── models.cpython-313.pyc
+│       ├── routes.cpython-313.pyc
+│       ├── utils.cpython-313.pyc
+│       ├── views.cpython-313.pyc
+│       └── __init__.cpython-313.pyc
+├── __pycache__/
+│   ├── app_config.cpython-313.pyc
+│   └── config.cpython-313.pyc
+
 ```
 Running the Application 
 Use the command: 
